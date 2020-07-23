@@ -25,15 +25,6 @@ mongoose.connect(process.env.DATABASEURL,
     }
 );
 
-// mongoose.connect("mongodb+srv://admin:adminpassword@cluster0.8m7wk.mongodb.net/yelp_camp?retryWrites=true&w=majority",
-//     {
-//         useNewUrlParser: true,
-//         useFindAndModify: false,
-//         useCreateIndex: true,
-//         useUnifiedTopology: true
-//     }
-// );
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
