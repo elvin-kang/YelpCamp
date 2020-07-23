@@ -13,3 +13,8 @@
 .delete-form {
     display: inline;
 }
+
+.preview-img {
+    width: 100%;
+    height: 160px;
+}
